@@ -7,7 +7,7 @@ import Details from "./Details";
 function App() {
   return (
     <Routes basename="/Kasa">
-      <Route path="/" element={<Home />} />
+      <Route index element={<Home />} />
       <Route path='/About' element={<About />} />
       <Route path ='/details/:id'element={<Details/>}/>
       <Route path="*" element={<Error />} />
