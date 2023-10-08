@@ -6,7 +6,7 @@ import Error from "./Components/404";
 import Details from "./Details";
 function App() {
   return (
-    <Routes>
+    <Routes basename="/Kasa">
       <Route path="/" element={<Home />} />
       <Route path='/About' element={<About />} />
       <Route path ='/details/:id'element={<Details/>}/>
